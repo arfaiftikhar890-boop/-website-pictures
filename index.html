@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Mezbaan|restraunt</title>
+</head>
+<body>
+  <nav
+   class="bg-neutral-primary fixed w-full z-20 top-0 start-0 border-b border-default navbar"
+   aria-label="Main navigation">
+   <div class="max-w-7xl mx-auto flex flex-wrap items-center gap-4 w-full">
+      <a href="#"
+         class="min-w-9 inline-block focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">
+         <span class="sr-only">Your Company</span>
+         <img src="./images/IMG_2307.JPG.jpeg" alt="readymadeui logo" class="h-9 w-auto" id="logo"/>
+      </a>
+      <svg xmlns="http://w3.org" viewBox="0 0 200 50" width="200" height="50">
+  <defs>
+    <!-- Smooth shadow for depth -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="4" stdDeviation="4" flood-color="#000000" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <!-- Button Background -->
+  <rect x="5" y="5" width="190" height="40" rx="20" fill="#15153e"  filter="url(#shadow)"/>
+
+  <!-- Icon and Text Group (Centered) -->
+  <g transform="translate(32, 12)">
+    <!-- Location Pin Icon -->
+    <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="#FFFFFF"/>
+    
+    <!-- Button Text -->
+    <text x="28" y="18" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="600 " letter-spacing="0.5">
+     <a href="delivery.html">delivery to</a> 
+    </text>
+  </g>
+</svg>
+
+      <div id="collapseMenu" tabindex="-1"
+         class="hidden lg:block max-lg:bg-white max-lg:border-l max-lg:border-slate-300 max-lg:w-1/2 max-lg:fixed max-lg:top-0 max-lg:right-0 max-lg:h-full max-lg:shadow-md max-lg:overflow-auto max-sm:w-full z-50 outline-none">
+
+         <div
+            class="py-2 px-4 flex justify-between items-center border-b border-slate-300 sticky top-0 bg-white lg:hidden max-lg:min-h-[68px]">
+            <a href="#"
+               class="inline-block focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">
+               <span class="sr-only">Your Company</span>
+               <img src="https://readymadeui.com/logo-alt.svg" alt="readymadeui logo" class="h-9 w-auto" />
+            </a>
+            <button type="button" aria-controls="collapseMenu" id="toggleClose"
+               class="cursor-pointer focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">
+               <span class="sr-only">Close main menu</span>
+               <svg xmlns="http://www.w3.org/2000/svg" class="size-4 fill-slate-900"
+                  aria-hidden="true" viewBox="0 0 329.269 329">
+                  <path
+                     d="M194.8 164.77 323.013 36.555c8.343-8.34 8.343-21.825 0-30.164-8.34-8.34-21.825-8.34-30.164 0L164.633 134.605 36.422 6.391c-8.344-8.34-21.824-8.34-30.164 0-8.344 8.34-8.344 21.824 0 30.164l128.21 128.215L6.259 292.984c-8.344 8.34-8.344 21.825 0 30.164a21.27 21.27 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25l128.21-128.214 128.216 128.214a21.27 21.27 0 0 0 15.082 6.25c5.46 0 10.922-2.09 15.082-6.25 8.343-8.34 8.343-21.824 0-30.164zm0 0"
+                     data-original="#000000" />
+               </svg>
+            </button>
+         </div>
+
+         <ul
+            class="flex flex-col gap-8 font-semibold text-sm text-slate-900 lg:flex-row max-lg:p-6 lg:ml-12">
+           
+          
+           
+           
+         </ul>
+      </div>
+                     
+      <div class="flex items-center gap-4 ml-auto">
+
+         <div class="flex items-center gap-4 pr-2">
+            <a href="#"
+               class="flex flex-col items-center justify-center gap-0.5 text-[13px] font-semibold text-slate-900 hover:text-blue-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">
+               <div class="relative">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                     class="cursor-pointer fill-white inline w-5 h-5" viewBox="0 0 64 64"
+                     aria-hidden="true">
+                     <path
+                        d="M45.5 4A18.53 18.53 0 0 0 32 9.86 18.5 18.5 0 0 0 0 22.5C0 40.92 29.71 59 31 59.71a2 2 0 0 0 2.06 0C34.29 59 64 40.92 64 22.5A18.52 18.52 0 0 0 45.5 4ZM32 55.64C26.83 52.34 4 36.92 4 22.5a14.5 14.5 0 0 1 26.36-8.33 2 2 0 0 0 3.27 0A14.5 14.5 0 0 1 60 22.5c0 14.41-22.83 29.83-28 33.14Z"
+                        data-original="#000000" />
+                  </svg>
+                  <span
+                     class="absolute left-auto -ml-1 -top-0.5 rounded-full bg-white px-1 py-0 text-xs text-slate-900 font-medium">0</span>
+               </div>
+               
+            </a>
+
+            <a href="#"
+               class="flex flex-col items-center justify-center gap-0.5 text-[13px] font-semibold text-slate-900 hover:text-blue-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">
+               <div class="relative">
+                  <svg xmlns="http://www.w3.org/2000/svg"
+                     class="cursor-pointer fill-white inline w-5 h-5" viewBox="0 0 489 489"
+                     aria-hidden="true">
+                     <path
+                        d="m440.1 422.7-28-315.3c-.6-7-6.5-12.3-13.4-12.3h-57.6C340.3 42.5 297.3 0 244.5 0s-95.8 42.5-96.6 95.1H90.3c-7 0-12.8 5.3-13.4 12.3l-28 315.3c0 .4-.1.8-.1 1.2 0 35.9 32.9 65.1 73.4 65.1h244.6c40.5 0 73.4-29.2 73.4-65.1 0-.4 0-.8-.1-1.2zM244.5 27c37.9 0 68.8 30.4 69.6 68.1H174.9c.8-37.7 31.7-68.1 69.6-68.1zm122.3 435H122.2c-25.4 0-46-16.8-46.4-37.5l26.8-302.3h45.2v41c0 7.5 6 13.5 13.5 13.5s13.5-6 13.5-13.5v-41h139.3v41c0 7.5 6 13.5 13.5 13.5s13.5-6 13.5-13.5v-41h45.2l26.9 302.3c-.4 20.7-21.1 37.5-46.4 37.5z"
+                        data-original="#000000" />
+                  </svg>
+                  <span
+                     class="absolute left-auto -ml-1 -top-0.5 rounded-full bg-white  px-1 py-0 text-xs text-slate-900 font-medium">0</span>
+               </div>
+               
+            </a>
+         </div>
+
+
+         <a href="#"
+            class="py-2 px-3.5 text-sm rounded-md font-semibold cursor-pointer text-slate-900 border border-slate-900 bg-white  hover:bg-blue-950 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">Sign
+            up</a>
+
+         <button type="button" aria-controls="collapseMenu" aria-expanded="false" aria-haspopup="true" id="toggleOpen"
+            class="cursor-pointer lg:hidden focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">
+            <span class="sr-only">Open main menu</span>
+            <svg class="size-7 fill-slate-900" aria-hidden="true" viewBox="0 0 20 20"
+               xmlns="http://www.w3.org/2000/svg">
+               <path fill-rule="evenodd"
+                  d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z"
+                  clip-rule="evenodd"></path>
+            </svg>
+         </button>
+
+
+      </div>
+   </div>
+</nav>
+<br><br>
+<img src="./images/Mezbaan Feast_ Paratha, Lassi & Thali.png " alt="" >
+<nav class="bg-neutral-primary fixed w-full z-20 start-0 border-b border-t border-gray-600 border-default navtwo">
+<ul class="flex flex-col gap-8 font-semibold text-sm text-white dark:text-slate-50 lg:flex-row max-lg:p-6">
+            <li>
+               <a href="#"
+                  class="hover:text-gray-400 dark:hover:text-gray-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded"
+                  aria-current="page"> SPECIAL PULAO</a>
+            </li>
+            <li>
+               <a href="#"
+                  class="hover:text-blue-700 dark:hover:text-blue-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">HALWA PURI</a>
+            </li>
+            <li>
+               <a href="#"
+                  class="hover:text-blue-700 dark:hover:text-blue-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">PARATHAS</a>
+            </li>
+            <li>
+               <a href="#"
+                  class="hover:text-blue-700 dark:hover:text-blue-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">LASSI</a>
+            </li>
+            <li>
+               <a href="#"
+                  class="hover:text-blue-700 dark:hover:text-blue-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded">BEVERAGES</a>
+            </li>
+         </ul>
+</nav>
+<div
+               class="flex items-center gap-2.5 px-3 py-2.5  bg-white dark:bg-neutral-800 -outline-offset-1 outline-slate-900 dark:outline-slate-900 focus-within:outline-2 focus-within:-outline-offset-2 focus-within:outline-blue-600 border-b-3 ">
+               <label for="search" class="sr-only">Search</label>
+               <input type="search" id="search" placeholder="Search..." required
+                  class="text-sm text-slate-900 dark:text-slate-50 w-full outline-none" />
+               
+               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192.904 192.904" class="size-4 fill-slate-400 ml-auto"
+                  aria-hidden="true">
+                  <path
+                     d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z">
+                  </path>
+               </svg>
+            </div>
+            <section class="text-gray-600 body-font  items-center">
+  <div class="container px-5 py-24 mx-auto product-collection">
+    <div class="flex flex-col text-center w-full mb-20 ">
+      <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 tracking-widest pulao">SPECIAL PULAO </h1>
+      
+    </div>
+    <div class="flex flex-wrap -m-4 t">
+      <div class="p-4 lg:w-1/2 ">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-70 h-48  object-center sm:mb-0 mb-4 cursor-pointer product-list " src="./images/Beef Pulao.jpg">
+          <div class="flex-grow sm:pl-8 ">
+            <h2 class="title-font font-medium text-lg text-gray-900">BEEF YAKHANI PULAO</h2>
+            <h3 class="text-gray-500 mb-3">"Tender beef, rich yakhni, pure tradition in every grain."</h3>
+            <p class="mb-4"><b>1kg:Rs 1,200</b></p>
+                        <div class="p-4 pt-0">
+               <button type="button" aria-label="Add Adjective Attire to cart"
+                  class="w-full cursor-pointer text-sm px-3.5 py-2 font-semibold rounded-md bg-slate-900 hover:bg-blue-700 text-white border border-blue-600 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
+                  Add to cart
+               </button>
+            </div>
+
+            
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/2">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-70 h-48  object-center sm:mb-0 mb-4" src="./images/mutton pulao.jpg">
+          <div class="flex-grow sm:pl-8">
+            <h2 class="title-font font-medium text-lg text-gray-900">MUTTON PULAO</h2>
+            <h3 class="text-gray-500 mb-3">"Where tender mutton meets fragrant basmati."</h3>
+            <p class="mb-4"><b>1kg Rs:1,800</b></p>
+         <div class="p-4 pt-0"></div>
+               <button type="button" aria-label="Add Adjective Attire to cart"
+                  class="w-full cursor-pointer text-sm px-3.5 py-2 font-semibold rounded-md bg-slate-900 hover:bg-blue-700 text-white border border-blue-600 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
+                  Add to cart
+               </button>
+              
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/2">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-70 h-48  object-center sm:mb-0 mb-4" src="/images/chana pulao.jpg">
+          <div class="flex-grow sm:pl-8">
+            <h2 class="title-font font-medium text-lg text-gray-900">CHANA PULAO</h2>
+            <h3 class="text-gray-500 mb-3">Every grain a celebration, every chickpea a delight.</h3>
+            <p class="mb-4"><b>1kg: Rs 520</b></p>
+            <div class="p-4 pt-0"></div>
+               <button type="button" aria-label="Add Adjective Attire to cart"
+                  class="w-full cursor-pointer text-sm px-3.5 py-2 font-semibold rounded-md bg-slate-900 hover:bg-blue-700 text-white border border-blue-600 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
+                 Add to cart 
+               </button>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/2">
+        <div class="h-full flex sm:flex-row flex-col items-center sm:justify-start justify-center text-center sm:text-left">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-70 h-48  object-center sm:mb-0 mb-4" src="./images/chicken pulao.jpg">
+          <div class="flex-grow sm:pl-8">
+            <h2 class="title-font font-medium text-lg text-gray-900">WHITE CHICKEN PULAO</h2>
+            <h3 class="text-gray-500 mb-3">"Aromatic basmati, tender chicken, unforgettable flavor."</h3>
+            <p class="mb-4"><b>1kg :Rs 1,000 </b></p>
+            <div class="p-4 pt-0"></div>
+               <button type="button" aria-label="Add Adjective Attire to cart"
+                  class="w-full cursor-pointer text-sm px-3.5 py-2 font-semibold rounded-md bg-slate-900 hover:bg-blue-700 text-white border border-blue-600 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
+                  Add to cart
+               </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<img src="./images/halwa puri .png" alt="" id="bannertwo">
+<br><br><br>
+<section class="text-gray-600 body-font">
+  <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
+    <img class="lg:w-2/6 md:w-3/6 w-5/6 mb-10 object-cover object-center rounded" alt="hero" src="./images/thali halwapuri.png">
+    <div class="text-center lg:w-2/3 w-full">
+      <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">CRISPY FRESH HALWA PURI</h1>
+      <p class="mb-8 leading-relaxed"> Crispy. Sweet. Unbeatable.
+• The ultimate desi breakfast.
+• Golden puris, golden moments.
+• Hot, fresh, and unforgettable..</p>
+<p class="mb-4"><b>1kg :Rs 1,000 </b></p>
+<br><br>
+       <button type="button" aria-label="Add Adjective Attire to cart"
+                  class="w-full cursor-pointer text-sm px-3.5 py-2 font-semibold rounded-md bg-slate-900 hover:bg-blue-700 text-white border border-blue-600 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
+                  Add to cart
+               </button>
+        
+      </div>
+    </div>
+  </div>
+</section> 
+<br><br><br>
+<img src="./images/Traditional & Flavorful Parathas (1).png" alt="" id="bannerthree">
+<section class="text-gray-600 body-font">
+  <div class=" px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="text-2xl font-medium title-font mb-4 text-gray-900 PARATHAS">PARATHAS</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base"><b>From Sweet to Savory, We’ve Got You Covered.</b></p>
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 lg:w-1/4 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src=".//chicken cheese paratha.png">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-gray-900">CHICKEN CHEESE PARATHA</h2>
+            <h3 class="text-gray-500 mb-3">The Crispy Crunch with a Cheesy Punch.</h3>
+            <p class="mb-4"><b> Rs 600</b></p>
+           
+               <button type="button" aria-label="Add Adjective Attire to cart"
+                  class="w-full cursor-pointer text-sm px-3.5 py-2 font-semibold rounded-md bg-slate-900 hover:bg-blue-700 text-white border border-blue-600 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
+                  Add to cart
+                
+               </button>
+              
+          
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/4 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="./images/nutella paratha.png">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-gray-900">NUTELLA PARATHA</h2>
+            <h3 class="text-gray-500 mb-3"> Your Daily Dose of Flaky Nutella Goodness</h3>
+            <p class="mb-4"><b>Rs 500</b></p>
+            
+               <button type="button" aria-label="Add Adjective Attire to cart"
+                  class="w-full cursor-pointer text-sm px-3.5 py-2 font-semibold rounded-md bg-slate-900 hover:bg-blue-700 text-white border border-blue-600 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
+                  Add to cart
+               </button>
+              
+         
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/4 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56  object-center mb-4" src="./images/bbq.png">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-gray-900">BBQ PARATHA</h2>
+            <h3 class="text-gray-500 mb-3">Smoky BBQ Fire, Wrapped in Golden Desire</h3>
+            <p class="mb-4"><b>Rs 600</b></p>
+           
+               <button type="button" aria-label="Add Adjective Attire to cart"
+                  class="w-full cursor-pointer text-sm px-3.5 py-2 font-semibold rounded-md bg-slate-900 hover:bg-blue-700 text-white border border-blue-600 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
+                  Add to cart
+               </button>
+         
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/4 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-center mb-4" src="./images/aloo paratha.png">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-gray-900">ALOO PARATHA</h2>
+            <h3 class="text-gray-500 mb-3">"Loaded with potato, packed with joy"</h3>
+            <p class="mb-4"><b>Rs 300</b></p>
+
+               <button type="button" aria-label="Add Adjective Attire to cart"
+                  class="w-full cursor-pointer text-sm px-3.5 py-2 font-semibold rounded-md bg-slate-900 hover:bg-blue-700 text-white border border-blue-600 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
+                  Add to cart
+               </button>
+              
+              
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="flex flex-wrap -m-4">
+      <div class="p-4 lg:w-1/4 md:w-1/2">
+        <div class="h-full flex flex-col items-center  text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="./images/qeema paratha.png">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-gray-900">QEEMA PARATHA</h2>
+            <h3 class="text-gray-500 mb-3">Crispy on the outside, meaty on the inside.</h3>
+            <p class="mb-4"><b>Rs 600</b></p>
+            
+               <button type="button" aria-label="Add Adjective Attire to cart"
+                  class="w-full cursor-pointer text-sm px-3.5 py-2 font-semibold rounded-md bg-slate-900 hover:bg-blue-700 text-white border border-blue-600 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
+                  Add to cart
+               </button>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/4 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-center mb-4" src="./images/full cheese paratha.png">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-gray-900">CHEESE PARATHA</h2>
+            <h3 class="text-gray-500 mb-3">The ultimate cheese pull meets desi comfort.</h3>
+            <p class="mb-4"><b>Rs 400</b></p>
+            
+               <button type="button" aria-label="Add Adjective Attire to cart"
+                  class="w-full cursor-pointer text-sm px-3.5 py-2 font-semibold rounded-md bg-slate-900 hover:bg-blue-700 text-white border border-blue-600 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
+                  Add to cart
+               </button>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/4 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56  object-center mb-4" src="./images/chicken tikka paratha.png">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-gray-900">CHICKEN TIKKA PARATHA</h2>
+            <h3 class="text-gray-500 mb-3">Tikka meets the ultimate crunch.</h3>
+            <p class="mb-4"><b>Rs 600</b></p>
+            
+               <button type="button" aria-label="Add Adjective Attire to cart"
+                  class="w-full cursor-pointer text-sm px-3.5 py-2 font-semibold rounded-md bg-slate-900 hover:bg-blue-700 text-white border border-blue-600 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
+                  Add to cart
+               </button>
+          </div>
+        </div>
+      </div>  
+              
+      
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<br><br><br>
+</section>
+<img src=".//images/flavoured milk banner.png" alt="" id="flavouredbaner">
+<section class="text-gray-600 body-font">
+  <div class="container px-5 py-24 mx-auto">
+    <div class="flex flex-col text-center w-full mb-20">
+      <h1 class="text-2xl font-medium title-font mb-4 text-gray-900">OUR TEAM</h1>
+      <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
+    </div>
+    <div class="flex flex-wrap -m-4">
+      <div class="p-4 lg:w-1/4 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="./images/savory lassi.jpg">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-gray-900">Alper Kamu</h2>
+            <h3 class="text-gray-500 mb-3">UI Developer</h3>
+            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/4 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="./images/chocolate lassi .jpg">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-gray-900">Holden Caulfield</h2>
+            <h3 class="text-gray-500 mb-3">UI Developer</h3>
+            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/4 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="./images/mango.jpg">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-gray-900">Atticus Finch</h2>
+            <h3 class="text-gray-500 mb-3">UI Developer</h3>
+            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/4 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="./images/sweet lassi.jpg">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-gray-900">Henry Letham</h2>
+            <h3 class="text-gray-500 mb-3">UI Developer</h3>
+            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <div class="flex flex-wrap -m-4">
+      <div class="p-4 lg:w-1/4 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="./images/strawberry lassi.jpg">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-gray-900">Alper Kamu</h2>
+            <h3 class="text-gray-500 mb-3">UI Developer</h3>
+            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/4 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="./images/pista milk.jpg">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-gray-900">Holden Caulfield</h2>
+            <h3 class="text-gray-500 mb-3">UI Developer</h3>
+            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/4 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="./images/chocolate milk.jpg">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-gray-900">Atticus Finch</h2>
+            <h3 class="text-gray-500 mb-3">UI Developer</h3>
+            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="p-4 lg:w-1/4 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="./images/strawberry milk .jpg">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-gray-900">Henry Letham</h2>
+            <h3 class="text-gray-500 mb-3">UI Developer</h3>
+            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+   <div class="p-4 lg:w-1/4 md:w-1/2">
+        <div class="h-full flex flex-col items-center text-center">
+          <img alt="team" class="flex-shrink-0 rounded-lg w-full h-56 object-cover object-center mb-4" src="./images/cold sweet milk .jpg">
+          <div class="w-full">
+            <h2 class="title-font font-medium text-lg text-gray-900">Atticus Finch</h2>
+            <h3 class="text-gray-500 mb-3">UI Developer</h3>
+            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <span class="inline-flex">
+              <a class="text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                </svg>
+              </a>
+              <a class="ml-2 text-gray-500">
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                  <path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"></path>
+                </svg>
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
+</section>
+
+<script  src="script.js"></script>
+</body>
+</html>

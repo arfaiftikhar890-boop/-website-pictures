@@ -1,0 +1,89 @@
+body
+{
+  overflow-x: hidden;
+  
+  ;
+}
+.navbar{
+  background-color: rgb(21, 21, 62);
+}
+#logo{
+  border-radius: 50px;
+  width: 60px;
+  height: 60px;
+}
+.navtwo{
+  background-color: rgb(21, 21, 62) ;
+  height: 50px;
+  position: sticky;
+  top: 61px;
+
+}
+li{
+  position: relative;
+  left: 200px;
+  font-size: 18px;
+
+}
+ul{
+  gap: 80px;
+  position: relative;
+  top: 9px;
+  left:75px ;
+}
+.pulao{
+  font-family: Engravers MT;
+  font-size:40px;
+  font-weight: bold;
+}
+ .product-collection .product-list{
+display:grid;
+grid-template-columns: repeat(auto-fit, minimax(280px,1fr));
+gap:20;
+ }
+
+ .product-collection .img-box {
+display: flex;
+overflow: hidden;
+cursor: pointer;
+color: aqua;
+ }
+ .product-collection .img-box img {
+width: 100%;
+transition: 0.5s;
+ }
+ .product-collection .img-box:hover img {
+  transition: scale(1.1);
+ }
+ .product-collection .title {
+font-size: 18px;
+font-weight: 400;
+margin-top: 10px;
+ }
+ #bannertwo
+ {
+  height: 700px;
+width:1500;
+border-radius: 40px;
+position: relative;
+left: 75px;
+ }
+ #bannerthree{
+   height: 700px;
+width:1500;
+border-radius: 40px;
+position: relative;
+left: 75px;
+ }
+.PARATHAS{
+  font-family: Engravers MT;
+  font-size:45px;
+  font-weight: bold;
+}
+#flavouredbaner{
+  height: 500px;
+width:1300px;
+border-radius: 40px;
+position: relative;
+left: 65px;
+}
